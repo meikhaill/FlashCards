@@ -15,10 +15,8 @@ class Turn
   end
 
   def guess
-    return string 
-    print string
+    return @string
+    print @string
   end
 end
 
-#sagjgpaijgepoagepnogapno
-#GJHSIGHAOPGHIAOEIGNOP
