@@ -1,11 +1,13 @@
 class Card
-  def initialize(num)
-    @num = num
+  def initialize(question, answer, category)
+    @question = question
+    @answer = answer
+    @category = category
   end
 
-  def multi
-    @num * 2
-  end
+  # def multi
+     
+  # end
 end
 
 class Turn
@@ -18,5 +20,21 @@ class Turn
     return @string
     print @string
   end
+
+  def card
+    return @card
+    print @card
+  end
+
+  def correct?
+    if string == card.answer
+      return true 
+    else
+      return false
+    end
+  end
+
 end
+
+
 
