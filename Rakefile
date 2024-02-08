@@ -1,5 +1,5 @@
 require "rake/testtask"
-require "pry"
+# require "pry"
 
 Rake::TestTask.new do |t|
   t.libs << "test"
