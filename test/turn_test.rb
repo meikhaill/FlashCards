@@ -1,5 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/card'
+require_relative '../lib/turn'
 
 class TurnTest < Minitest::Test
   def test_guess
