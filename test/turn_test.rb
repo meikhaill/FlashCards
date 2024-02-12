@@ -9,3 +9,4 @@ class TurnTest < Minitest::Test
     assert_equal "Earth", turn.guess
   end
 end
+

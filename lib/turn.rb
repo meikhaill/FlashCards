@@ -1,7 +1,12 @@
+require_relative 'card.rb'
 class Turn
+  @@count = 0
+
   def initialize(string, card)
     @card = card
     @string = string
+
+    @@count += 1
   end
   
   def guess
