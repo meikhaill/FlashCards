@@ -8,8 +8,8 @@ class Round
   def deck
     @deck
   end
-  
 
-  
-
+  def turns
+    $count
+  end
 end
